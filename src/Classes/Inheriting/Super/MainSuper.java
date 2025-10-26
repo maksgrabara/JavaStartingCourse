@@ -5,5 +5,8 @@ public class MainSuper {
 
         ClassAdvanced object1 = new ClassAdvanced();
         object1.method1();
+
+        ClassAdvanced object2 = new ClassAdvanced();        //constructor default used, because classAdvanced inherits from classDefault
+
     }
 }
